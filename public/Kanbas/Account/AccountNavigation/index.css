@@ -3,14 +3,12 @@
     list-style: none;
     padding: 0px;
     width: 190px;
-    margin: 0px;
     margin-left: 20px;
 }
 
 .wd-account-navigation li {
     padding: 5px;
     margin-top: 15px;
-    margin-bottom: 15px;
     font-size: 0.8em;
 }
 
@@ -29,6 +27,5 @@
 
 .wd-account-navigation a i {
     color: red;
-    font-size: 2em;
     margin-bottom: 5px;
 }
