@@ -1,35 +1,3 @@
-## Assignment 1 Kanbas (50 pts)
-
-**3.1 Home Screen (10 pts)**
-URL: /Kanbas/Courses/Home/screen.html
-Path to Screen (via UI): Kanbas > Courses > Home
-
-**3.2 Grade screen (10 pts)**
-URL: /Kanbas/Courses/Grades/screen.html
-Path to Screen (via UI): Kanbas > Courses > Grades
-
-**3.3 Assignment Screen (15 pts)**
-URL: /Kanbas/Courses/Assignments/screen.html
-Path to Screen (via UI): Kanbas > Courses > Assignments
-
-URL for Edit Assignment: /Kanbas/Courses/Assignments/AssignmentEditor/screen.html
-Path to Screen (via UI): Kanbas > Courses > Assignments > Link (Click on assignment name)
-
-**3.4 Profile Screen (15 pts)**
-URL: Kanbas/Account/Profile/personprofile.html
-Path to Screen (via UI): Kanbas > Account > Profile
-
-URL for Edit Profile: /Kanbas/Account/Profile/EditProfile/screen.html
-Path to Screen (via UI): Kanbas > Account > Profile > Button (Click on Edit Profile)
-
-**4.1 Course Detail Tab**
-URL: /Kanbas/Courses/Settings/screen.html
-Path to Screen (via UI): Kanbas > Courses > Settings > Link (Click on Course Detail)
-
-**4.2 Course Navigation Tab**
-URL: /Kanbas/Courses/Settings/navscreen.html
-Path to Screen (via UI): Kanbas > Courses > Settings > Link (Click on Navigation)
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
