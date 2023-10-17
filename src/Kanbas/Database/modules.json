@@ -1,0 +1,144 @@
+[
+    {
+        "course": "RS101",
+        "modules": [
+            {
+                "title": "Week 0 - Introduction",
+                "sections": [
+                    {
+                        "sectionTitle": "LEARNING OBJECTIVES",
+                        "sectionContent": [
+                            "Introduction to the course",
+                            "Learning what is Web Development"
+                        ]
+                    },
+                    {
+                        "sectionTitle": "READINGS",
+                        "sectionContent": [
+                            "Full Stack Developer - Chapter 1 - Introduction",
+                            "Full Stack Developer - Chapter 2 - Creating User Interfaces With HTML"
+                        ]
+                    },
+                    {
+                        "sectionTitle": "SLIDES",
+                        "sectionContent": [
+                            "Full Stack Developer - Chapter 1 - Introduction",
+                            "Full Stack Developer - Chapter 2 - Creating User Interfaces With HTML"
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Week 1 - HTML",
+                "sections": [
+                    {
+                        "sectionTitle": "LEARNING OBJECTIVES",
+                        "sectionContent": [
+                            "Learning what is Web Development",
+                            "Introduction to HTML"
+                        ]
+                    },
+                    {
+                        "sectionTitle": "READINGS",
+                        "sectionContent": [
+                            "Full Stack Developer - Chapter 2 - Creating User Interfaces With HTML"
+                        ]
+                    },
+                    {
+                        "sectionTitle": "SLIDES",
+                        "sectionContent": [
+                            "Full Stack Developer - Chapter 2 - Creating User Interfaces With HTML",
+                            "Full Stack Developer - Chapter 3 - JS"                        
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "course": "RS102",
+        "modules": [
+            {
+                "title": "Week 0 - Introduction",
+                "sections": [
+                    {
+                        "sectionTitle": "LEARNING OBJECTIVES",
+                        "sectionContent": [
+                            "Introduction to the course",
+                            "Learning what is Web Development"
+                        ]
+                    },
+                    {
+                        "sectionTitle": "READINGS",
+                        "sectionContent": [
+                            "Full Stack Developer - Chapter 1 - Introduction",
+                            "Full Stack Developer - Chapter 2 - Creating User Interfaces With HTML"
+                        ]
+                    },
+                    {
+                        "sectionTitle": "SLIDES",
+                        "sectionContent": [
+                            "Full Stack Developer - Chapter 1 - Introduction",
+                            "Full Stack Developer - Chapter 2 - Creating User Interfaces With HTML"
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Week 1 - HTML",
+                "sections": [
+                    {
+                        "sectionTitle": "LEARNING OBJECTIVES",
+                        "sectionContent": [
+                            "Learning what is Web Development",
+                            "Introduction to HTML"
+                        ]
+                    },
+                    {
+                        "sectionTitle": "READINGS",
+                        "sectionContent": [
+                            "Full Stack Developer - Chapter 2 - Creating User Interfaces With HTML"
+                        ]
+                    },
+                    {
+                        "sectionTitle": "SLIDES",
+                        "sectionContent": [
+                            "Full Stack Developer - Chapter 2 - Creating User Interfaces With HTML"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "course": "RS103",
+        "modules": [
+            {
+                "title": "Week 0 - Introduction",
+                "sections": [
+                    {
+                        "sectionTitle": "LEARNING OBJECTIVES",
+                        "sectionContent": [
+                            "Introduction to the course",
+                            "Learning what is Web Development"
+                        ]
+                    },
+                    {
+                        "sectionTitle": "READINGS",
+                        "sectionContent": [
+                            "Full Stack Developer - Chapter 1 - Introduction",
+                            "Full Stack Developer - Chapter 2 - Creating User Interfaces With HTML"
+                        ]
+                    },
+                    {
+                        "sectionTitle": "SLIDES",
+                        "sectionContent": [
+                            "Full Stack Developer - Chapter 1 - Introduction",
+                            "Full Stack Developer - Chapter 2 - Creating User Interfaces With HTML"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
