@@ -1,3 +1,4 @@
+// Author: Ronhit Neema 
 import db from "../Database";
 import CourseCard from "./DashboardCard";
 

@@ -1,3 +1,4 @@
+// Author: Ronhit Neema 
 import db from "../../Database";
 import { useParams } from "react-router-dom";
 import { FaCog } from "react-icons/fa";
