@@ -3,53 +3,88 @@
         "course": "RS101",
         "modules": [
             {
-                "title": "Week 0 - Introduction",
+                "title": "Week 0 - Introduction to Rocket Propulsion",
                 "sections": [
                     {
                         "sectionTitle": "LEARNING OBJECTIVES",
                         "sectionContent": [
-                            "Introduction to the course",
-                            "Learning what is Web Development"
+                            "Basic principles of rocket propulsion.",
+                            "Basic principles of rocket engines."
                         ]
                     },
                     {
                         "sectionTitle": "READINGS",
                         "sectionContent": [
-                            "Full Stack Developer - Chapter 1 - Introduction",
-                            "Full Stack Developer - Chapter 2 - Creating User Interfaces With HTML"
+                            "Full Stack Rocket Developer - Chapter 1 - Rocket Propulsion.",
+                            "Full Stack Rocket Developer - Chapter 2 - Rocket Engines."
                         ]
+
                     },
                     {
                         "sectionTitle": "SLIDES",
                         "sectionContent": [
-                            "Full Stack Developer - Chapter 1 - Introduction",
-                            "Full Stack Developer - Chapter 2 - Creating User Interfaces With HTML"
+                            "Full Stack Rocket Developer - Chapter 1 - Rocket Propulsion.",
+                            "Full Stack Rocket Developer - Chapter 2 - Rocket Engines."
                         ]
+
                     }
                 ]
             },
             {
-                "title": "Week 1 - HTML",
+                "title": "Week 1 - Fuel and Combustion",
                 "sections": [
                     {
                         "sectionTitle": "LEARNING OBJECTIVES",
                         "sectionContent": [
-                            "Learning what is Web Development",
-                            "Introduction to HTML"
+                            "Understanding rocket fuel, combustion processes, and efficiency.",
+                            "Advanced principles of Fuel.",
+                            "Advanced principles of Combustion."
                         ]
                     },
                     {
                         "sectionTitle": "READINGS",
                         "sectionContent": [
-                            "Full Stack Developer - Chapter 2 - Creating User Interfaces With HTML"
+                            "Advanced Fuel Developer - Chapter 1 - Fuel and Combustion Propulsion.",
+                            "Advanced Combustion Developer - Chapter 2 - Fuel and Combustion Engines."
                         ]
+
                     },
                     {
                         "sectionTitle": "SLIDES",
                         "sectionContent": [
-                            "Full Stack Developer - Chapter 2 - Creating User Interfaces With HTML",
-                            "Full Stack Developer - Chapter 3 - JS"                        
+                            "Advanced Fuel Developer - Chapter 1 - Fuel and Combustion Propulsion.",
+                            "Advanced Combustion Developer - Chapter 2 - Fuel and Combustion Engines."
                         ]
+
+                    }
+                ]
+            },
+            {
+                "title": "Week 2 - Nozzle Design",
+                "sections": [
+                    {
+                        "sectionTitle": "LEARNING OBJECTIVES",
+                        "sectionContent": [
+                            "Principles of rocket nozzle design and performance optimization.",
+                            "Basic principles of rocket nozzle design.",
+                            "Basic principles of rocket perfomance optimization."
+                        ]
+                    },
+                    {
+                        "sectionTitle": "READINGS",
+                        "sectionContent":[
+                            "Full Stack Rocket Developer - Chapter 1 - Nozzle Design.",
+                            "Full Stack Rocket Developer - Chapter 2 - Perfomance Optimization."
+                        ]
+
+                    },
+                    {
+                        "sectionTitle": "SLIDES",
+                        "sectionContent": [
+                            "Full Stack Rocket Developer - Chapter 1 - Nozzle Design.",
+                            "Full Stack Rocket Developer - Chapter 2 - Perfomance Optimization."
+                        ]
+
                     }
                 ]
             }
@@ -59,52 +94,88 @@
         "course": "RS102",
         "modules": [
             {
-                "title": "Week 0 - Introduction",
+                "title": "Week 0 - Fundamentals of Aerodynamics",
                 "sections": [
                     {
                         "sectionTitle": "LEARNING OBJECTIVES",
                         "sectionContent": [
-                            "Introduction to the course",
-                            "Learning what is Web Development"
+                            "Basic aerodynamic concepts and fluid dynamics principles.",
+                            "Introduction to aerodynamic concepts.",
+                            "Learning what is fluid dynamics principles."
                         ]
                     },
                     {
                         "sectionTitle": "READINGS",
-                        "sectionContent": [
-                            "Full Stack Developer - Chapter 1 - Introduction",
-                            "Full Stack Developer - Chapter 2 - Creating User Interfaces With HTML"
+                        "sectionContent":[
+                            "Full Stack Developer - Chapter 1 - Managing Aerodynamic Concepts.",
+                            "Full Stack Developer - Chapter 2 - Creating fluid dynamics principles."
                         ]
+
                     },
                     {
                         "sectionTitle": "SLIDES",
-                        "sectionContent": [
-                            "Full Stack Developer - Chapter 1 - Introduction",
-                            "Full Stack Developer - Chapter 2 - Creating User Interfaces With HTML"
+                        "sectionContent":[
+                            "Full Stack Developer - Chapter 1 - Managing Aerodynamic Concepts.",
+                            "Full Stack Developer - Chapter 2 - Creating fluid dynamics principles."
                         ]
+
                     }
                 ]
             },
             {
-                "title": "Week 1 - HTML",
+                "title": "Week 1 - Subsonic and Supersonic Flow",
                 "sections": [
                     {
                         "sectionTitle": "LEARNING OBJECTIVES",
-                        "sectionContent": [
-                            "Learning what is Web Development",
-                            "Introduction to HTML"
+                        "sectionContent":  [
+                            "Understanding subsonic and supersonic aerodynamic behaviors",
+                            "Learning what is subsonic Development",
+                            "Introduction to supersonic aerodynamic behaviors"
                         ]
+
                     },
                     {
                         "sectionTitle": "READINGS",
                         "sectionContent": [
-                            "Full Stack Developer - Chapter 2 - Creating User Interfaces With HTML"
+                            "Full Stack Developer - Chapter 2 - subsonic and supersonic aerodynamic behaviors"
                         ]
+
                     },
                     {
                         "sectionTitle": "SLIDES",
-                        "sectionContent": [
-                            "Full Stack Developer - Chapter 2 - Creating User Interfaces With HTML"
+                        "sectionContent":[
+                            "Full Stack Developer - Chapter 2 - subsonic and supersonic aerodynamic behaviors"
                         ]
+
+                    }
+                ]
+            },
+            {
+                "title": "Week 2 - Aerodynamic Heating",
+                "sections": [
+                    {
+                        "sectionTitle": "LEARNING OBJECTIVES",
+                        "sectionContent": [
+                            "Study of aerodynamic heating and thermal protection systems",
+                            "Learning what is aerodynamic heating",
+                            "Introduction to supersonic thermal protection systems"
+                        ]
+
+
+                    },
+                    {
+                        "sectionTitle": "READINGS",
+                        "sectionContent": [
+                            "Full Stack Developer - Chapter 2 - aerodynamic and thermal protection systems"
+                        ]
+
+                    },
+                    {
+                        "sectionTitle": "SLIDES",
+                        "sectionContent":[
+                            "Full Stack Developer - Chapter 2 - aerodynamic and thermal protection systems"
+                        ]
+
                     }
                 ]
             }
@@ -114,27 +185,86 @@
         "course": "RS103",
         "modules": [
             {
-                "title": "Week 0 - Introduction",
+                "title": "Week 0 - Spacecraft Structural Design",
                 "sections": [
                     {
                         "sectionTitle": "LEARNING OBJECTIVES",
-                        "sectionContent": [
-                            "Introduction to the course",
-                            "Learning what is Web Development"
+                        "sectionContent":  [
+                            "Fundamentals of designing spacecraft structures and materials selection.",
+                            "Introduction to designing spacecraft structures",
+                            "Learning what is materials selection"
                         ]
                     },
                     {
                         "sectionTitle": "READINGS",
-                        "sectionContent": [
-                            "Full Stack Developer - Chapter 1 - Introduction",
-                            "Full Stack Developer - Chapter 2 - Creating User Interfaces With HTML"
+                        "sectionContent":  [
+                            "Full Stack Developer - Chapter 1 - designing spacecraft structures",
+                            "Full Stack Developer - Chapter 2 - Creating User materials selection"
                         ]
                     },
                     {
                         "sectionTitle": "SLIDES",
-                        "sectionContent": [
-                            "Full Stack Developer - Chapter 1 - Introduction",
-                            "Full Stack Developer - Chapter 2 - Creating User Interfaces With HTML"
+                        "sectionContent":  [
+                            "Full Stack Developer - Chapter 1 - designing spacecraft structures",
+                            "Full Stack Developer - Chapter 2 - Creating User materials selection"
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Week 1 - Orbital Mechanics",
+                "sections": [
+                    {
+                        "sectionTitle": "LEARNING OBJECTIVES",
+                        "sectionContent":  [
+                            "Understanding orbital dynamics and mission planning.",
+                            "Introduction to designing orbital dynamics",
+                            "Learning what is mission planning."
+                        ]
+
+                    },
+                    {
+                        "sectionTitle": "READINGS",
+                        "sectionContent":  [
+                            "Full Stack Developer - Chapter 1 - designing orbital dynamics",
+                            "Full Stack Developer - Chapter 2 - Creating User mission planning."
+                        ]
+
+                    },
+                    {
+                        "sectionTitle": "SLIDES",
+                        "sectionContent":  [
+                            "Full Stack Developer - Chapter 1 - designing orbital dynamics",
+                            "Full Stack Developer - Chapter 2 - Creating User mission planning."
+                        ]
+
+                    }
+                ]
+            },
+            {
+                "title": "Week 2 - Spacecraft Systems Engineering",
+                "sections": [
+                    {
+                        "sectionTitle": "LEARNING OBJECTIVES",
+                        "sectionContent":  [
+                            "Overview of spacecraft systems and subsystems engineering.",
+                            "Introduction to designing spacecraft systems",
+                            "Learning what is subsystems engineering."
+                        ]
+
+                    },
+                    {
+                        "sectionTitle": "READINGS",
+                        "sectionContent":   [
+                            "Full Stack Developer - Chapter 1 - designing spacecraft systems",
+                            "Full Stack Developer - Chapter 2 - Creating User subsystems engineering."
+                        ]
+                    },
+                    {
+                        "sectionTitle": "SLIDES",
+                        "sectionContent":  [
+                            "Full Stack Developer - Chapter 1 - designing spacecraft systems",
+                            "Full Stack Developer - Chapter 2 - Creating User subsystems engineering."
                         ]
                     }
                 ]
