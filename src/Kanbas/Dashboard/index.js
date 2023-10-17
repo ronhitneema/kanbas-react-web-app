@@ -1,16 +1,41 @@
-// Author: Ronhit Neema 
+import { Link } from "react-router-dom";
 import db from "../Database";
-import CourseCard from "./DashboardCard";
+import courseImage from "../Database/exampleIcon.png";
+import "../Dashboard/DashboardCard/index.css";
 
 function Dashboard() {
   const courses = db.courses;
   return (
-    <div>
-      <h1>Dashboard</h1>
-      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
-        {courses.map((course) => (
-          <CourseCard key={course._id} course={course} />
-        ))}
+    <div className="ms-3">
+      <span className="wd-header">Dashboard</span>
+      <br />
+      <hr />
+      <span className="wd-published-courses ms-3">Published courses ({courses.length})</span>
+      <br />
+      <hr className="ms-3"/>
+      <div className="list-group wd-card-group">
+        <div className="row row-cols-md-5 g-5">
+          {courses.map((course) => (
+            <div className="col">
+              <Link
+                key={course._id}
+                to={`/Kanbas/Courses/${course._id}`}
+                className="list-group-item"
+              >
+                <div className="card h-100">
+                  <img src={courseImage} alt="courseImage"/>
+                  <div className="card-body">
+                    <h6 className="card-title">{course.name}</h6>
+                    <div className="card-text">
+                      <p className="card-text">{course._id}</p>
+            {course.startDate} to {course.endDate}
+                    </div>
+                  </div>
+                </div>
+              </Link>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );

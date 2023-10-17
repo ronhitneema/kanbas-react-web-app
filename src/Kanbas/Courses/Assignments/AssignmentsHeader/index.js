@@ -1,29 +1,34 @@
 import React from "react";
-import { FaEllipsisV } from "react-icons/fa";
+import { AiOutlinePlus } from "react-icons/ai";
+import { HiOutlineEllipsisVertical } from "react-icons/hi2";
 import "./index.css";
 
 const AssignmentsHeader = () => {
   return (
-    <div class="d-flex mb-2">
-      <div class="m-1">
-        <button class="btn btn-secondary">Collapse All</button>
+    <div>
+      <div class="wd-assignments-header mt-2">
+        <input
+          class="form-control w-25 float-start"
+          type="text"
+          placeholder="Search for Assignment"
+        />
+        <div class="buttons float-end">
+          <button class="btn wd-bg-lightgray">
+            <AiOutlinePlus />
+            Group
+          </button>
+          <button class="btn btn-danger">
+            <AiOutlinePlus />
+            Assignment
+          </button>
+          <button class="btn wd-bg-lightgray">
+            <HiOutlineEllipsisVertical />
+          </button>
+        </div>
       </div>
-      <div class="m-1">
-        <button class="btn btn-secondary">View Progress</button>
-      </div>
-      <div class="m-1">
-        <button class="btn btn-secondary">Publish All</button>
-      </div>
-      <div class="m-1">
-        <button class="btn btn-danger">
-          <i class="fa-solid fa-plus"></i>Module
-        </button>
-      </div>
-      <div class="m-1">
-        <button class="btn btn-danger">
-          <FaEllipsisV />
-        </button>
-      </div>
+    <br/>
+    <br/>
+    <br/>
     </div>
   );
 };
