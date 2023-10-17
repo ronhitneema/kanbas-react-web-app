@@ -20,11 +20,11 @@ function AssignmentEditor() {
       <input value={assignment.title} className="form-control mb-2" />
       <Link
         to={`/Kanbas/Courses/${courseId}/Assignments`}
-        className="btn btn-danger"
+        className="btn btn-secondary"
       >
         Cancel
       </Link>
-      <button onClick={handleSave} className="btn btn-success me-2">
+      <button onClick={handleSave} className="btn btn-danger me-2">
         Save
       </button>
     </div>
