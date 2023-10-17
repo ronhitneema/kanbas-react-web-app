@@ -1,3 +1,4 @@
+// Author: Ronhit Neema 
 import KanbasNavigation from "./KanbasNavigation";
 import { Routes, Route, Navigate } from "react-router-dom";
 import Dashboard from "./Dashboard";
@@ -14,7 +15,7 @@ function Kanbas() {
           element={
             <div>
               <h1>Account</h1>
-              <p>Not implemented...</p>
+              <p>Not Implemented yet, in Progress...</p>
             </div>
           }
         />
@@ -24,7 +25,7 @@ function Kanbas() {
           element={
             <div>
               <h1>Courses</h1>
-              <p>Please navigate to a course via the Dashboard tab...</p>
+              <p>Please Explore Courses through the Dashboard Tab...</p>
             </div>
           }
         />
@@ -34,7 +35,7 @@ function Kanbas() {
           element={
             <div>
               <h1>Calendar</h1>
-              <p>Not implemented...</p>
+              <p>Not Implemented yet, in Progress...</p>
             </div>
           }
         />
@@ -43,7 +44,7 @@ function Kanbas() {
           element={
             <div>
               <h1>Inbox</h1>
-              <p>Not implemented...</p>
+              <p>Not Implemented yet, in Progress...</p>
             </div>
           }
         />
@@ -52,7 +53,7 @@ function Kanbas() {
           element={
             <div>
               <h1>History</h1>
-              <p>Not implemented...</p>
+              <p>Not Implemented yet, in Progress...</p>
             </div>
           }
         />
@@ -61,7 +62,7 @@ function Kanbas() {
           element={
             <div>
               <h1>Studio</h1>
-              <p>Not implemented...</p>
+              <p>Not Implemented yet, in Progress...</p>
             </div>
           }
         />
@@ -70,7 +71,7 @@ function Kanbas() {
           element={
             <div>
               <h1>Commons</h1>
-              <p>Not implemented...</p>
+              <p>Not Implemented yet, in Progress...</p>
             </div>
           }
         />
@@ -80,7 +81,7 @@ function Kanbas() {
           element={
             <div>
               <h1>Help</h1>
-              <p>Not implemented...</p>
+              <p>Not Implemented yet, in Progress...</p>
             </div>
           }
         />
