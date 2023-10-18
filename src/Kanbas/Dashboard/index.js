@@ -25,10 +25,11 @@ function Dashboard() {
                 <div className="card h-100">
                   <img src={courseImage} alt="courseImage"/>
                   <div className="card-body">
-                    <h6 className="card-title">{course.name}</h6>
+                    <h6 className="card-title"><strong>{course.name}</strong></h6>
                     <div className="card-text">
-                      <p className="card-text">{course._id}</p>
-            {course.startDate} to {course.endDate}
+                      <p className="card-text"><strong>{course._id}</strong></p>
+            {course.startDate} to {course.endDate}<br/>
+            {course.number}
                     </div>
                   </div>
                 </div>

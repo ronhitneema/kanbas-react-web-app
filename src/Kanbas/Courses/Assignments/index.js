@@ -38,7 +38,8 @@ function Assignments() {
           >
             <HiOutlineEllipsisVertical />
             <TfiPencilAlt color="green" />
-            <span className="wd-assignment-title ms-2">{assignment.title}</span>
+            <span className="wd-assignment-title ms-2">{assignment.title}</span><br/>
+            <sub>Mutiple Modules | <strong>Due</strong> 18th Sept, 2023 | 100 Points</sub>
             <span class="wd-check-ellipse-button-float-end float-end">
               <AiFillCheckCircle color="green" />
               <HiOutlineEllipsisVertical />

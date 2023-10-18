@@ -2,6 +2,9 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import db from "../../Database";
 import "./index.css";
+import { AiFillCheckCircle, AiOutlineCaretDown} from "react-icons/ai";
+import { HiOutlineEllipsisVertical } from "react-icons/hi2";
+
 
 function ModuleList() {
   const { courseId } = useParams();
@@ -16,19 +19,19 @@ function ModuleList() {
             module.modules.map((moduleInner, innerIndex) => (
               <div className={`mb-4 ${index}`}>
                 <li key={innerIndex} className="list-group-item">
-                  <h5>{moduleInner.title}</h5>
+                  <h5><HiOutlineEllipsisVertical /> <AiOutlineCaretDown/> {moduleInner.title} <AiFillCheckCircle color="green" />  </h5>
                 </li>
                 {moduleInner.sections.map((section, sectionIndex) => (
                   <div>
                     <li key={sectionIndex} className="list-group-item">
-                      <span class="tab">
+                      <span>
                         <h6>{section.sectionTitle}</h6>
                       </span>
                     </li>
                     {section.sectionContent.map(
                       (sectionItem, sectionItemIndex) => (
                         <li key={sectionItemIndex} className="list-group-item">
-                          <span class="tab">
+                          <span>
                             <span class="tab">{sectionItem}</span>
                           </span>
                         </li>

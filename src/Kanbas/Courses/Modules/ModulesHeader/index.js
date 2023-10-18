@@ -1,6 +1,7 @@
 import React from "react";
 import { FaEllipsisV } from "react-icons/fa";
 import "./index.css";
+import { AiOutlinePlus, AiFillCheckCircle} from "react-icons/ai";
 
 const ModulesHeader = () => {
   return (
@@ -12,11 +13,11 @@ const ModulesHeader = () => {
         <button class="btn btn-secondary">View Progress</button>
       </div>
       <div class="m-1">
-        <button class="btn btn-secondary">Publish All</button>
+        <button class="btn btn-secondary"><AiFillCheckCircle color="green" /> Publish All</button>
       </div>
       <div class="m-1">
         <button class="btn btn-danger">
-          <i class="fa-solid fa-plus"></i>Module
+          <i class="fa-solid fa-plus"></i><AiOutlinePlus /> Module
         </button>
       </div>
       <div class="m-1">
