@@ -1,9 +1,6 @@
-// Author: Ronhit Neema 
 import db from "../../Database";
 import { useParams } from "react-router-dom";
 import { FaCog } from "react-icons/fa";
-import {CiFilter} from "react-icons/ci";
-
 function Grades() {
   const { courseId } = useParams();
   const assignments = db.assignments.filter(
@@ -41,8 +38,6 @@ function Grades() {
               placeholder="Search Students"
               id="text-fields-text"
             />
-            <br/>
-            <button class="btn btn-secondary"><CiFilter/> Apply Filter</button>
           </div>
           <div class="col">
             <h3>Assignment Names</h3>
@@ -52,7 +47,6 @@ function Grades() {
               placeholder="Search Assignments"
               id="text-fields-text"
             />
-            
           </div>
         </div>
       </div>

@@ -1,42 +1,111 @@
+import { React } from "react";
 import { Link } from "react-router-dom";
-import db from "../Database";
+import "./index.css";
+import { AiOutlinePlus } from "react-icons/ai";
 import courseImage from "../Database/exampleIcon.png";
-import "../Dashboard/DashboardCard/index.css";
 
-function Dashboard() {
-  const courses = db.courses;
+function Dashboard({
+  courses,
+  course,
+  setCourse,
+  addNewCourse,
+  deleteCourse,
+  updateCourse,
+}) {
   return (
-    <div className="ms-3">
-      <span className="wd-header">Dashboard</span>
-      <br />
+    <div className="ml-1">
+      <h1>Dashboard</h1>
       <hr />
       <span className="wd-published-courses ms-3">Published courses ({courses.length})</span>
       <br />
-      <hr className="ms-3"/>
-      <div className="list-group wd-card-group">
-        <div className="row row-cols-md-5 g-5">
-          {courses.map((course) => (
-            <div className="col">
-              <Link
-                key={course._id}
-                to={`/Kanbas/Courses/${course._id}`}
-                className="list-group-item"
-              >
-                <div className="card h-100">
-                  <img src={courseImage} alt="courseImage"/>
-                  <div className="card-body">
-                    <h6 className="card-title"><strong>{course.name}</strong></h6>
-                    <div className="card-text">
-                      <p className="card-text"><strong>{course._id}</strong></p>
-            {course.startDate} to {course.endDate}<br/>
-            {course.number}
+      <div className="mt-4 mb-4">
+        <div className="row">
+          <div className="col">
+            <button class="m-1 btn btn-secondary" onClick={addNewCourse}>
+            <AiOutlinePlus /> Add
+            </button>
+            <button class="m-1 btn btn-secondary" onClick={updateCourse}>
+              Update
+            </button>
+          </div>
+          <div className="col">
+            <input
+              value={course.name}
+              className="form-control"
+              onChange={(e) => setCourse({ ...course, name: e.target.value })}
+            />
+          </div>
+          <div className="col">
+            <input
+              value={course.number}
+              className="form-control"
+              onChange={(e) => setCourse({ ...course, number: e.target.value })}
+            />
+          </div>
+          <div className="col">
+            <input
+              value={course.startDate}
+              className="form-control"
+              type="date"
+              onChange={(e) =>
+                setCourse({ ...course, startDate: e.target.value })
+              }
+            />
+          </div>
+          <div className="col">
+            <input
+              value={course.endDate}
+              className="form-control"
+              type="date"
+              onChange={(e) =>
+                setCourse({ ...course, endDate: e.target.value })
+              }
+            />
+          </div>
+        </div>
+      </div>
+      <div class="row row-cols-lg-3 g-3">
+        {courses.map((course) => (
+          <div>
+            <Link key={course._id} to={`/Kanbas/Courses/${course._id}`}>
+              <div className="card kanbas-card">
+                
+                <img src={courseImage} alt="courseImage"/>
+                <div className="card-body">
+                  <div className="row">
+                    <div className="col col-8">
+                      <h5 className="card-title">{course.name}</h5>
+                      <p className="card-text">
+                        {course.number} <br />
+                        {course.startDate} to {course.endDate}
+                      </p>
+                    </div>
+                    <div className="col col-2">
+                      <button
+                        className="btn btn-secondary"
+                        onClick={(event) => {
+                          event.preventDefault();
+                          deleteCourse(course._id);
+                        }}
+                      >
+                        Delete
+                      </button>
+                      <button
+                        className="mt-2 btn btn-secondary"
+                        onClick={(event) => {
+                          event.preventDefault();
+                          setCourse(course);
+                        }}
+                      >
+                        Edit
+                      </button>
                     </div>
                   </div>
                 </div>
-              </Link>
-            </div>
-          ))}
-        </div>
+              </div>
+            </Link>
+          </div>
+        ))}
       </div>
     </div>
   );

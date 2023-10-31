@@ -1,4 +1,3 @@
-// Author: Ronhit Neema 
 import React from "react";
 import ConditionalOutputIfElse from "./ConditionalOutputIfElse";
 import ConditionalOutputInline from "./ConditionalOutputInline";

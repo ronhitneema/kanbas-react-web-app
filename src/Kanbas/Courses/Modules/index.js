@@ -1,4 +1,3 @@
-// Author: Ronhit Neema 
 import ModuleList from "./ModuleList";
 import ModulesHeader from "./ModulesHeader";
 function Modules() {

@@ -1,4 +1,3 @@
-// Author: Ronhit Neema 
 import ModuleList from "../Modules/ModuleList";
 import ModulesHeader from "../Modules/ModulesHeader";
 import HomeSideMenuHeader from "./HomeSideMenu";

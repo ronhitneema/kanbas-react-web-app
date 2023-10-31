@@ -1,4 +1,3 @@
-// Author: Ronhit Neema 
 const TodoItem = ({
   todo = {
     done: true,

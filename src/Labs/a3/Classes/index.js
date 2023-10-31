@@ -1,4 +1,3 @@
-// Author: Ronhit Neema 
 import "./index.css";
 
 function Classes() {

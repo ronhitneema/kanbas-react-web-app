@@ -13,7 +13,7 @@ const HomeSideMenuHeader = () => {
       <button class="btn btn-secondary">Unpublish</button>
       <button class="btn btn-success">Published</button>
       <div class="mt-4 mb-4">
-        <ul class="list-group">
+      <ul class="list-group">
           <li class="list-group-item"><FaFileImport/> Import Existing Content</li>
           <li class="list-group-item"><CgImport/> Import From Commons</li>
           <li class="list-group-item"><AiOutlineAim/> Choose Home Page</li>
@@ -22,7 +22,7 @@ const HomeSideMenuHeader = () => {
           <li class="list-group-item"><VscGraph/> New Anyalytics</li>
           <li class="list-group-item"><BsBell/> View Course Notifications</li>
         </ul>
-      </div>
+        </div>
       <strong>To Do</strong><br/>
       <hr/>
       <FcHighPriority/> Grade A1 - ENV + HTML<br/>
