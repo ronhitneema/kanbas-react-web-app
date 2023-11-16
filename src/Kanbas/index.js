@@ -60,7 +60,7 @@ function Kanbas() {
 
   useEffect(() => {
     findAllCourses();
-  });
+  }, []);
 
   return (
     <Provider store={store}>
