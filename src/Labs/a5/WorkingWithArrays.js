@@ -34,7 +34,7 @@ function WorkingWithArrays() {
 
   useEffect(() => {
     fetchTodos();
-  }, []);
+  });
   return (
     <div>
       <h2>Working with Arrays</h2>

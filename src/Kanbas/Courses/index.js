@@ -16,15 +16,16 @@ function Courses() {
 
   const { courseId } = useParams();
   const [course, setCourse] = useState({});
-  const findCourseById = async (courseId) => {
-    const response = await axios.get(
-      `${URL}/${courseId}`
-    );
-    setCourse(response.data);
-  };
+
   useEffect(() => {
+    const findCourseById = async (courseId) => {
+      const response = await axios.get(`${URL}/${courseId}`);
+      setCourse(response.data);
+    };
+
     findCourseById(courseId);
-  }, [courseId]);
+  }, [courseId, URL]); // URL is added as a dependency because it's used in the effect
+
 
   return (
     <div>

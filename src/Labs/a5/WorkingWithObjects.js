@@ -30,7 +30,7 @@ function WorkingWithObjects() {
   };
   useEffect(() => {
     fetchAssignment();
-  }, []);
+  });
 
   return (
     <div>
